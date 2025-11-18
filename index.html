@@ -1,97 +1,68 @@
 <!DOCTYPE html>
-<!-- This page is adapted from w3schools "How to make a link tree website https://www.w3schools.com/howto/howto_website_create_linktree.asp" -->
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- Add your name below -->
-  <title>Giovanni Garcia</title>
-  <link rel="stylesheet" href="css/style.css">
-  <style>
-    .main-text-color { 
-      background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url(images/night_image.avif);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      min-height: 100vh;
-      color: #ffffff;
-    }
-    .container h1, 
-  .container h2, 
-  .container a,
-  .description p, 
-  .footer p,
-  .button.toggle 
-   { 
-    color: #ffffff; 
-  }
-    .container {
-    max-width: 600px;
-    margin: 0 auto; 
-    padding: 20px;  
-  }
-  </style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Giovanni Garcia</title>
+    <link rel="stylesheet" href="css/style.css"> 
 </head>
 
 <body class="main-text-color">
-  <!-- Content container. Everything except footer goes here -->
-  <div class="container">
-    <!-- Image and name container. Put your replacement photo—which you should crop to be square—in the images folder, then change the source attribute to images/yourportraitfilename.jpg. This path says, "Look in the images folder for yourportraitfilename.jpg." Be sure to change the alt text, too. -->
-    <div class="image-container">
-      <img src="images/SuitPic.jpg" alt="Photo by me">
-    </div>
-    <div class="intro">
-      I'm <span class="name"><strong>Giovanni Garcia</strong></span>, a junior at Virginia Tech studying Computer Science.
-    </div>
-    <div class="section-header">
-      <h1>My work</h1>
-    </div>
-    <!-- Replace the # inside of the href="#" with your links. -->
-    <div class="links-container">
-      <div class="button toggle">Blog post</div>
-      <div class="slidedown">
-  <div class="description">
-  <h2>The 5-step system every college student should know to become an A+ student</h2>
-  <p>This blog showcases a system that uses a digital planner and AI to help college students organize their schedules to increase productivity. </p>
-  <a href="https://medium.com/@giovanni23_92519/the-5-step-system-every-college-student-should-know-to-become-an-a-student-5e90aa560b43" class="external-link" target="_blank">Read</a>
-  </div>
-</div>
-
-      <div class="button toggle">Video</div>
-      <div class="slidedown">
-        <div class="description">
-          <h2>Video title</h2>
-          <p>Cool animated video.</p>
-          <a href="#" class="external-link" target="_blank">Watch</a>
+    <div class="container">
+        <div class="image-container">
+            <img src="images/SuitPic.jpg" alt="Photo by me"> 
         </div>
-      </div>
+        <div class="intro">
+            I'm <span class="name"><strong>Giovanni Garcia</strong></span>, a junior at Virginia Tech studying Computer Science.
+        </div>
+        <div class="section-header">
+            <h1>My work</h1>
+        </div>
+        <div class="links-container">
+            <div class="button toggle">Blog post</div>
+            <div class="slidedown">
+                <div class="description">
+                    <h2>The 5-step system every college student should know to become an A+ student</h2>
+                    <p>This blog showcases a system that uses a digital planner and AI to help college students organize their schedules to increase productivity.</p>
+                    <a href="https://medium.com/@giovanni23_92519/the-5-step-system-every-college-student-should-know-to-become-an-a-student-5e90aa560b43" class="external-link" target="_blank">Read</a>
+                </div>
+            </div>
 
-      <div class="button toggle">Podcast</div>
-      <div class="slidedown">
-  <div class="description">
-  <h2>Roommate Court</h2>
-  <p>Your weekly dose of roommate drama turned courtroom comedy. </p>
-  <a href="https://soundcloud.com/xavier-blais-245494668/roommate-court-ep-1" class="external-link" target="_blank">Listen</a>
-  </div>
-</div>
+            <div class="button toggle">Video</div>
+            <div class="slidedown">
+                <div class="description">
+                    <h2>Video title</h2>
+                    <p>Cool animated video.</p>
+                    <a href="#" class="external-link" target="_blank">Watch</a>
+                </div>
+            </div>
 
-    <!-- Replace # with PDF from Google Docs, or replace the entire section with whatever you want. Or delete it! Or add another section below it!-->
-    <div class="section-header">
-      <h1>About me</h1>
+            <div class="button toggle">Podcast</div>
+            <div class="slidedown">
+                <div class="description">
+                    <h2>Roommate Court</h2>
+                    <p>Your weekly dose of roommate drama turned courtroom comedy.</p>
+                    <a href="https://soundcloud.com/xavier-blais-245494668/roommate-court-ep-1" class="external-link" target="_blank">Listen</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-header">
+            <h1>About me</h1>
+        </div>
+
+        <div class="links-container">
+            <a href="https://docs.google.com/document/d/1pgv24eiP_Ik_weUnusmpMjiHJruRwRDg6a6qpAcDQYU/edit?usp=sharing" class="button" target="_blank">Resume</a>
+        </div>
+
     </div>
-
-    <div class="links-container">
-      <a href="https://docs.google.com/document/d/1pgv24eiP_Ik_weUnusmpMjiHJruRwRDg6a6qpAcDQYU/edit?usp=sharing" class="button" target="_blank">Resume</a>
+    <div class="footer">
+        <p>© Giovanni Garcia, 2024. Based on a design by <a
+                href="https://www.w3schools.com/howto/howto_website_create_linktree.asp" target="_blank">w3schools</a>.
+        </p>
     </div>
-
-  </div>
-  <div class="footer">
-    <p>© Giovanni Garcia, 2024. Based on a design by <a
-        href="https://www.w3schools.com/howto/howto_website_create_linktree.asp" target="_blank">w3schools</a>.
-    </p>
-  </div>
-  <script type="text/javascript" src="js/slider.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
 </body>
 
 </html>
